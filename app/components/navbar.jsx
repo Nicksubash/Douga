@@ -6,7 +6,7 @@ export default function NewNavbar() {
     <Navbar shouldHideOnScroll className="text-2xl">
       <NavbarBrand>
         <AcmeLogo />
-        <p className="font-bold text-inherit">DOUGA</p>
+        <p className="font-bold text-inherit text-red-950">DOUGA</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
