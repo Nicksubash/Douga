@@ -3,10 +3,10 @@ import {AcmeLogo} from "./AcmeLogo.jsx";
 
 export default function NewNavbar() {
   return (
-    <Navbar shouldHideOnScroll>
+    <Navbar shouldHideOnScroll className="text-2xl">
       <NavbarBrand>
         <AcmeLogo />
-        <p className="font-bold text-inherit">AChhhME</p>
+        <p className="font-bold text-inherit">DOUGA</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
