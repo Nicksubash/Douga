@@ -6,6 +6,7 @@ export default function Navbar() {
       <div>
         <h1 className="text-2xl ">
         Login
+        rahul
         </h1>
         
       </div>
