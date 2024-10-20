@@ -1,11 +1,12 @@
 import Image from "next/image";
-import Navbar from "./components/navbar/page";
+import NewNavbar from "./components/navbar";
+import HeroSection from "./components/hero";
 export default function Home() {
   return (
     <>
     <div>
-    <Navbar/>
-      Hello Rahul
+    <NewNavbar/>
+    <HeroSection/>
     </div>
     </>
   );
